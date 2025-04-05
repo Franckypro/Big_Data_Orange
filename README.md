@@ -7,12 +7,6 @@ Ce projet utilise PySpark, Pandas, Matplotlib, Seaborn et scikit-learn pour effe
 📦 Prérequis
 Les bibliothèques nécessaires sont :
 
-bash
-
-Copier
-
-Modifier
-
 pip install findspark
 
 pip install xgboost

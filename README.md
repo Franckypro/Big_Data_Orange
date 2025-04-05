@@ -1,9 +1,10 @@
 # Big_Data_Orange
 Analyse Prédictive de la Qualité des Oranges 🍊
-📌 Description
+
+#📌 Description
 Ce projet utilise PySpark, Pandas, Matplotlib, Seaborn et scikit-learn pour effectuer une analyse exploratoire et une prédiction de la qualité des oranges à partir d’un ensemble de données contenant diverses caractéristiques (taille, poids, acidité, douceur, couleur, etc.). Il s'agit d'un workflow complet allant du prétraitement des données jusqu’à l'entraînement d’un modèle de régression avec GBTRegressor.
 
-📦 Prérequis
+#📦 Prérequis
 Les bibliothèques nécessaires sont :
 
 bash
@@ -13,7 +14,8 @@ pip install findspark
 pip install xgboost
 pip install scikit-learn
 pip install pyspark
-⚙️ Étapes de traitement
+
+#⚙️ Étapes de traitement
 Initialisation de Spark :
 
 Création d’une session Spark avec SparkSession
@@ -56,7 +58,8 @@ Entraînement d’un modèle de régression GBTRegressor (Gradient Boosted Tree)
 
 Optimisation des hyperparamètres avec ParamGridBuilder et CrossValidator
 
-📊 Technologies utilisées
+
+#📊 Technologies utilisées
 Apache Spark / PySpark
 
 Pandas & PySpark.Pandas
@@ -67,7 +70,8 @@ Scikit-learn
 
 XGBoost
 
-📁 Données
+
+#📁 Données
 Les données utilisées dans ce projet se trouvent dans le fichier orange.csv, qui contient les colonnes suivantes :
 
 Size (cm), Weight (g), Brix (Sweetness), pH (Acidity)
@@ -76,9 +80,9 @@ Softness (1-5), HarvestTime (days), Ripeness (1-5)
 
 Color, Variety, Blemishes (Y/N), Quality (1-5)
 
-🎯 Objectif
+
+#🎯 Objectif
 L'objectif principal est de prédire la qualité (Quality (1-5)) d’une orange à partir de ses caractéristiques physiques et chimiques en utilisant un modèle supervisé de régression.
 
 ✍️ Auteur
 Fouejio Francky Joël
-Mastère 2 - IA & Science des Données
